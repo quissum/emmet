@@ -1,0 +1,98 @@
+{
+  "html": {
+    "snippets": {
+      "da": "[data-da='${1:media}, ${2:where to move}, ${3:position}, ${4:parent}']",
+      "a": "a[href='#']",
+      "ul": "ul[role='list']",
+      "img": "img[src='@img' alt='image']",
+      "cont": "[class='${1}__container']",
+      "text": "span.text",
+      "icon": "span[class='icon _icon-${1}']"
+    }
+  },
+
+  "scss": {
+    "snippets": {
+      "mnms": "@media (min-width: rem($mobile-small)) {\n${1}\n}",
+      "mxms": "@media (max-width: rem($mobile-small)) {\n${1}\n}",
+      "mnm": "@media (min-width: rem($mobile)) {\n${1}\n}",
+      "mxm": "@media (max-width: rem($mobile)) {\n${1}\n}",
+      "mnt": "@media (min-width: rem($tablet)) {\n${1}\n}",
+      "mxt": "@media (max-width: rem($tablet)) {\n${1}\n}",
+      "mnlp": "@media (min-width: rem($laptop)) {\n${1}\n}",
+      "mxlp": "@media (max-width: rem($laptop)) {\n${1}\n}",
+      "mnl": "@media (min-width: rem($laptop-large)) {\n${1}\n}",
+      "mxl": "@media (max-width: rem($laptop-large)) {\n${1}\n}",
+      "mnp": "@media (min-width: rem($pc)) {\n${1}\n}",
+      "mxp": "@media (max-width: rem($pc)) {\n${1}\n}",
+      "mn": "@media (min-width: rem(${1})) {\n${2}\n}",
+      "mx": "@media (max-width: rem(${1})) {\n${2}\n}",
+
+      "posibg": "position: absolute;\nleft: 0;\ntop: 0;\nwidth: 100%;\nheight: 100%;",
+
+      "l": "left: rem(${1});${0}",
+      "lp": "left: ${1}%;${0}",
+      "r": "right: rem(${1});${0}",
+      "rp": "right: ${1}%;${0}",
+      "t": "top: rem(${1});${0}",
+      "tp": "top: ${1}%;${0}",
+      "b": "bottom: rem(${1});${0}",
+      "bp": "bottom: ${1}%;${0}",
+
+      "w": "width: rem(${1});${0}",
+      "wp": "width: ${1}%;${0}",
+      "mxw": "max-width: rem(${1});${0}",
+      "mxwp": "max-width: ${1}%;${0}",
+      "mxwn": "max-width: none",
+      "mnw": "min-width: rem(${1});${0}",
+      "mnwp": "min-width: ${1}%;${0}",
+      "mnwn": "min-width: none",
+      "h": "height: rem(${1});${0}",
+      "hp": "height: ${1}%;${0}",
+      "mxh": "max-height: rem(${1});${0}",
+      "mxhp": "max-height: ${1}%;${0}",
+      "mxhn": "max-height: none",
+      "mnh": "min-height: rem(${1});${0}",
+      "mnhp": "min-height: ${1}%;${0}",
+      "mnhn": "min-height: none",
+
+      "m": "margin: rem(${1}) rem(${2}) rem(${3}) rem(${4});${0}",
+      "mmm": "margin: rem(${1}) rem(${2}) rem(${3});${0}",
+      "mm": "margin: rem(${1}) rem(${2});${0}",
+      "mo": "margin: rem(${1});${0}",
+      "mza": "margin: 0 auto",
+      "ml": "margin-left: rem(${1});${0}",
+      "mla": "margin-left: auto",
+      "mr": "margin-right: rem(${1});${0}",
+      "mra": "margin-right: auto",
+      "mt": "margin-top: rem(${1});${0}",
+      "mb": "margin-bottom: rem(${1});${0}",
+      "p": "padding: rem(${1}) rem(${2}) rem(${3}) rem(${4});${0}",
+      "ppp": "padding: rem(${1}) rem(${2}) rem(${3});${0}",
+      "pp": "padding: rem(${1}) rem(${2});${0}",
+      "po": "padding: rem(${1});${0}",
+      "pl": "padding-left: rem(${1});${0}",
+      "pr": "padding-right: rem(${1});${0}",
+      "pt": "padding-top: rem(${1});${0}",
+      "pb": "padding-bottom: rem(${1});${0}",
+
+      "fwr": "flex-wrap: wrap",
+      "fwrn": "flex-wrap: nowrap",
+      "fdc": "flex-direction: column",
+      "fdr": "flex-direction: row",
+      "g": "gap: rem(${1});${0}",
+      "cg": "column-gap: rem(${1});${0}",
+      "rg": "row-gap: rem(${1});${0}",
+
+      "fz": "font-size: rem(${1});${0}",
+      "br": "border-radius: rem(${1});${0}",
+      "brc": "border-radius: 50%",
+
+      "hvr": "@media (any-hover: hover) {\n&:hover {\n${1}\n}\n}",
+      "hvrn": "@media (any-hover: none) {\n${1}\n}",
+      "nlc": "&:not(:last-child){\n${1}\n}",
+
+      "av": "@include adaptiveValue(${1}, ${2}, ${3})"
+    }
+  }
+}
